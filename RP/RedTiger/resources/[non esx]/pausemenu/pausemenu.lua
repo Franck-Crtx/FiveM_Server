@@ -1,0 +1,16 @@
+function AddTextEntry(key, value)
+	Citizen.InvokeNative(GetHashKey("ADD_TEXT_ENTRY"), key, value)
+end
+
+Citizen.CreateThread(function()
+  AddTextEntry('FE_THDR_GTAO', '~r~Red Tiger RP~s~ | Discord : ~g~discord.gg/HSDur5n~s~ | ~b~ID :~s~' .. GetPlayerServerId(PlayerId()))
+  AddTextEntry('PM_PANE_LEAVE', 'Retour à la ~r~liste serveur~s~')
+  AddTextEntry('PM_PANE_QUIT', 'Quitter la Belle ville de ~r~Red Tiger RP~s~')
+  AddTextEntry('PM_SCR_MAP', '~g~Carte de Los Santos~s~')
+  AddTextEntry('PM_SCR_GAM', '~r~Prendre l\'avion~s~')
+  AddTextEntry('PM_SCR_INF', '~p~Logs~s~')
+  AddTextEntry('PM_SCR_SET', '~b~Configuration~s~')
+  AddTextEntry('PM_SCR_STA', '~y~Statistiques~s~')
+  AddTextEntry('PM_SCR_GAL', 'Galerie')
+  AddTextEntry('PM_SCR_RPL', 'Éditeur ∑')
+end)

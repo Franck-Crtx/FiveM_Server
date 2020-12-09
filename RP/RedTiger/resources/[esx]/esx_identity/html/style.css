@@ -1,0 +1,48 @@
+body {
+	font-family: bankgothic;
+	overflow: hidden;
+	display: none;
+	color: #0092ff;
+}
+
+.dialog {
+	width: 300px;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	padding: 10px;
+	color: #fff;
+	box-shadow: 0px 0px 50px 0px #0092ff;
+	background-image: linear-gradient(to bottom right, #0092ff, #000000);
+	overflow: hidden;
+	/*opacity: 0.9;*/
+}
+
+input[type=text] {
+	width: 100%;
+	padding: 7px;
+	text-align: center;
+}
+
+button {
+	display: block;
+	margin-top: 5px;
+	padding: 10px;
+	background-image: linear-gradient(to bottom right, #000000, #454545);
+	border: 0;
+	color: #fff;
+	width: 100%;
+}
+
+h1 {
+	display: block;
+	margin-top: 5px;
+	margin-right: 5px;
+	padding: 10px;
+	background-image: linear-gradient(to bottom right, #000000, #454545);
+	color: #fff;
+	width: 93%;
+	text-align: center;
+}
